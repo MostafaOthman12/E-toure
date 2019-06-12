@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>E-Touring</title>
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../static/css/bootstrap-grid.min.css" rel="stylesheet">
+        <link href="../static/css/all.css" rel="stylesheet">
+        <link href="../static/css/style.css" rel="stylesheet">
+        <link rel="icon" href="../static/images/logo.png" type="image/x-icon"/>
+
+    </head>
+    <body>
+         <!--  
+      =======================================================================
+                        Section 1 Nav
+      =======================================================================
+    --> 
+    {% include "__navBar.html"%}
+<!--  
+=======================================================================
+                        Section 1 Nav End 
+=======================================================================
+-->
+
+<!--  
+  =======================================================================
+                        Main Wrapper 
+  =======================================================================
+-->
+
+<div class="main-wrapper">
+        <div class="container">
+            <div class="user-basic-info">
+            <img class="profile-picture" src="../static/images/user.svg" alt="profile picture">
+            <h3>Ibrahim Ayed</h3> <!-- User name before updating ' if he wants'-->
+            </div>
+            <h4>Basic Info</h4>
+            <div class="main-info ">
+                <p class="lead">Name</p>
+                <input class="edit-profile-fields" placeholder="Ibrahim Ayed" aria-label="user-name" type="text">
+            
+                <p class="lead">Region</p>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+
+                <p class="lead">Job Title</p>
+                <input class="edit-profile-fields" placeholder="Web Designer" aria-label="user-name" type="text">
+            </div>
+            <div class="contact-info">
+
+            </div>
+        </div>
+    </div>
+    
+<!--  
+  =======================================================================
+                        SCRIPTS 
+  =======================================================================
+-->
+        <script src="../static/js/jquery-3.3.1.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+        <script src="../static/js/main.js"></script>
+    </body>
+</html>

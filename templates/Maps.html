@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <!-- Custom CSS -->
+     <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="../static/css/all.css" rel="stylesheet">
+    <link href="../static/css/style.css" rel="stylesheet">
+    <link rel="icon" href="../static/images/logo.png" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="../static/css/Maps.css">
+
+  </head>
+  <body>
+    {% include "__navBar.html" %}
+    <div class="container">
+
+      <div class="options-box">
+      
+       
+        <div>
+          <h1>السياحة الترفهية  </h1>
+            <form>
+          <div class="multiselect">
+            <div class="selectBox" onclick="showCheckboxes()">
+              <select>
+                <option>Recreational tourism</option>
+              </select>
+              <div class="overSelect"></div>
+            </div>
+            <div id="checkboxes">
+              <label for="one">
+                <input  id ="one"type="checkbox" value="Show Group " onclick="displayMarkers(this,1);">Cairo</label>
+              <label for="two">
+                <input type="checkbox" id="two" value="Show Group " onclick="displayMarkers(this, 2);" >Alex</label>
+              <label for="three">
+                <input type="checkbox" id="three" value="Show Group " onclick="displayMarkers(this, 3);">Ismallya</label>
+              <label for="four">
+                <input type="checkbox" id="four" value="Show Group " onclick="displayMarkers(this, 4);">Red Sea</label>
+               <label for="five">
+                <input type="checkbox" id="five" value="Show Group " onclick="displayMarkers(this, 5);">Masra Matroh</label>
+               <label for="six">
+                <input type="checkbox" id="six" value="Show Group " onclick="displayMarkers(this, 6);">Aswan</label>
+              <label for="seven">
+                <input type="checkbox" id="seven" value="Show Group " onclick="displayMarkers(this, 7);">Faiyum</label>
+              <label for="eight">
+                <input type="checkbox" id="eight" value="Show Group " onclick="displayMarkers(this, 8);">siwa oasis</label>
+            </div>
+          </div>
+        </form>
+          <input id="trfhya" type="button" value="Show Listings">
+        </div>
+          
+        <div>
+          <h1> السياحة الدينية ( الاسلامية )</h1>
+        <form>
+          <div class="multiselect2">
+            <div class="selectBox2" onclick="showCheckboxes2()">
+              <select>
+                <option>Islamic Religious Tourism</option>
+              </select>
+              <div class="overSelect2"></div>
+            </div>
+            <div id="checkboxes2">
+              <label for="one2">
+                <input  id ="one2"type="checkbox" value="Show Group " onclick="displayMarkers2(this,1);">Cairo</label>
+              <label for="two2">
+                <input type="checkbox" id="two2" value="Show Group " onclick="displayMarkers2(this, 2);" >Alex</label>
+              <label for="three2">
+                <input type="checkbox" id="three2" value="Show Group " onclick="displayMarkers2(this, 3);">Ismallya</label>
+              <label for="four2">
+                <input type="checkbox" id="four2" value="Show Group " onclick="displayMarkers2(this, 4);">Red Sea</label>
+               <label for="five2">
+                <input type="checkbox" id="five2" value="Show Group " onclick="displayMarkers2(this, 5);">Masra Matroh</label>
+              <label for="six2">
+                <input type="checkbox" id="six2" value="Show Group " onclick="displayMarkers2(this, 6);">Aswan</label>
+              <label for="seven2">
+                <input type="checkbox" id="seven2" value="Show Group " onclick="displayMarkers2(this, 7);">Faiyum</label>
+              <label for="eight2">
+                <input type="checkbox" id="eight2" value="Show Group " onclick="displayMarkers2(this, 8);">siwa oasis</label>
+            </div>
+          </div>
+        </form>
+          <input id="islamic" type="button" value="Show Listings">
+        </div>
+        <div>
+
+          <h1>السياحة الدينية (القبطية)</h1>
+          <form>
+          <div class="multiselect3">
+            <div class="selectBox3" onclick="showCheckboxes3()">
+              <select>
+                <option>Coptic Religious Tourism</option>
+              </select>
+              <div class="overSelect3"></div>
+            </div>
+            <div id="checkboxes3">
+              <label for="one3">
+                <input  id ="one3"type="checkbox" value="Show Group " onclick="displayMarkers3(this,1);">Cairo</label>
+              <label for="two3">
+                <input type="checkbox" id="two3" value="Show Group " onclick="displayMarkers3(this, 2);" >Alex</label>
+              <label for="three3">
+                <input type="checkbox" id="three3" value="Show Group " onclick="displayMarkers3(this, 3);">Ismallya</label>
+              <label for="four3">
+                <input type="checkbox" id="four3" value="Show Group " onclick="displayMarkers3(this, 4);">Red Sea</label>
+               <label for="five3">
+                <input type="checkbox" id="five3" value="Show Group " onclick="displayMarkers3(this, 5);">Masra Matroh</label>
+              <label for="six3">
+                <input type="checkbox" id="six3" value="Show Group " onclick="displayMarkers3(this, 6);">Aswan</label>
+              <label for="seven3">
+                <input type="checkbox" id="seven3" value="Show Group " onclick="displayMarkers3(this, 7);">Faiyum</label>
+              <label for="eight3">
+                <input type="checkbox" id="eight3" value="Show Group " onclick="displayMarkers3(this, 8);">siwa oasis</label>
+            </div>
+          </div>
+        </form>
+          <input id="ms7ya" type="button" value="Show Listings">
+        </div>
+        <div>
+          <h1> السياحة العلاجية</h1>
+          <form>
+          <div class="multiselect4">
+            <div class="selectBox4" onclick="showCheckboxes4()">
+              <select>
+                <option>Medical Tourism</option>
+              </select>
+              <div class="overSelect4"></div>
+            </div>
+            <div id="checkboxes4">
+              <label for="one4">
+                <input  id ="one4"type="checkbox" value="Show Group " onclick="displayMarkers4(this,1);">Cairo</label>
+              <label for="two4">
+                <input type="checkbox" id="two4" value="Show Group " onclick="displayMarkers4(this, 2);" >Alex</label>
+              <label for="three4">
+                <input type="checkbox" id="three4" value="Show Group " onclick="displayMarkers4(this, 3);">Ismallya</label>
+              <label for="four4">
+                <input type="checkbox" id="four4" value="Show Group " onclick="displayMarkers4(this, 4);">Red Sea</label>
+               <label for="five4">
+                <input type="checkbox" id="five4" value="Show Group " onclick="displayMarkers4(this, 5);">Masra Matroh</label>
+              <label for="six4">
+                <input type="checkbox" id="six4" value="Show Group " onclick="displayMarkers4(this, 6);">Aswan</label>
+              <label for="seven4">
+                <input type="checkbox" id="seven4" value="Show Group " onclick="displayMarkers4(this, 7);">Faiyum</label>
+              <label for="eight4">
+                <input type="checkbox" id="eight4" value="Show Group " onclick="displayMarkers4(this, 8);">siwa oasis</label>
+            </div>
+          </div>
+        </form>
+          <input id="algya" type="button" value="Show Listings">
+        </div>
+        <div>
+          <h1> السياحة الفرعونية</h1>
+          <form>
+          <div class="multiselect5">
+            <div class="selectBox5" onclick="showCheckboxes5()">
+              <select>
+                <option>Pharaonic Tourism</option>
+              </select>
+              <div class="overSelect5"></div>
+            </div>
+            <div id="checkboxes5">
+              <label for="one5">
+                <input  id ="one5"type="checkbox" value="Show Group " onclick="displayMarkers5(this,1);">Cairo</label>
+              <label for="two5">
+                <input type="checkbox" id="two5" value="Show Group " onclick="displayMarkers5(this, 2);" >Alex</label>
+              <label for="three5">
+                <input type="checkbox" id="three5" value="Show Group " onclick="displayMarkers5(this, 3);">Ismallya</label>
+              <label for="four5">
+                <input type="checkbox" id="four5" value="Show Group " onclick="displayMarkers5(this, 4);">Red Sea</label>
+               <label for="five5">
+                <input type="checkbox" id="five5" value="Show Group " onclick="displayMarkers5(this, 5);">Masra Matroh</label>
+              <label for="six5">
+                <input type="checkbox" id="six5" value="Show Group " onclick="displayMarkers5(this, 6);">Aswan</label>
+              <label for="seven5">
+                <input type="checkbox" id="seven5" value="Show Group " onclick="displayMarkers5(this, 7);">Faiyum</label>
+              <label for="eight5">
+                <input type="checkbox" id="eight5" value="Show Group " onclick="displayMarkers5(this, 8);">siwa oasis</label>
+            </div>
+          </div>
+        </form>
+          <input id="fr3onya" type="button" value="Show Listings">
+        </div>
+        <div>
+          <h1> المتاحف</h1>
+          <form>
+          <div class="multiselect6">
+            <div class="selectBox6" onclick="showCheckboxes6()">
+              <select>
+                <option>Museums</option>
+              </select>
+              <div class="overSelect6"></div>
+            </div>
+            <div id="checkboxes6">
+              <label for="one6">
+                <input  id ="one6"type="checkbox" value="Show Group " onclick="displayMarkers6(this,1);">Cairo</label>
+              <label for="two6">
+                <input type="checkbox" id="two6" value="Show Group " onclick="displayMarkers6(this, 2);" >Alex</label>
+              <label for="three6">
+                <input type="checkbox" id="three6" value="Show Group " onclick="displayMarkers6(this, 3);">Ismallya</label>
+              <label for="four6">
+                <input type="checkbox" id="four6" value="Show Group " onclick="displayMarkers6(this, 4);">Red Sea</label>
+               <label for="five6">
+                <input type="checkbox" id="five6" value="Show Group " onclick="displayMarkers6(this, 5);">Masra Matroh</label>
+              <label for="six6">
+                <input type="checkbox" id="six6" value="Show Group " onclick="displayMarkers6(this, 6);">Aswan</label>
+              <label for="seven6">
+                <input type="checkbox" id="seven6" value="Show Group " onclick="displayMarker6(this, 7);">Faiyum</label>
+              <label for="eight6">
+                <input type="checkbox" id="eight6" value="Show Group " onclick="displayMarkers6(this, 8);">siwa oasis</label>
+            </div>
+          </div>
+        </form>
+          <input id="mta7f" type="button" value="Show Listings">
+        </div>
+      </div>
+      <div id="map"></div>
+    </div>
+     <script
+        src="../static/js/style1.js" charset="utf-8">
+    </script>
+
+    <script
+        src="../static/js/alldata/markers1.js" charset="utf-8">
+    </script>
+
+    <script
+        src="../static/js/alldata/markers2.js" charset="utf-8">
+    </script>
+   <script
+        src="../static/js/alldata/markers3.js" charset="utf-8">
+    </script><script
+        src="../static/js/alldata/markers4.js" charset="utf-8">
+    </script><script
+        src="../static/js/alldata/markers5.js" charset="utf-8">
+    </script><script
+        src="../static/js/alldata/markers6.js" charset="utf-8">
+    </script>
+    <script src="../static/js/app.js" charset="utf-8"> 
+      
+    </script>
+    
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxAsMYgFzSoYaQ1_2xMpRxL2Gfc-zZliU&callback=initMap"
+    async defer></script>
+  </body>
+</html>

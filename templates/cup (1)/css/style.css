@@ -1,0 +1,223 @@
+
+/*
+=================================
+Don't mess with my styling
+V1.0 Stylesheet
+All credits are saved to EET Team
+=================================
+*/
+/*
+=================================
+Classification
+=================================
+*/
+h2,h1,h3,h4,h5,h6{
+    text-transform: capitalize;
+}
+h3{
+    color: #FF9F1C;
+}
+hr{
+    background-color: #FF9F1C;
+}
+.myButton{
+    background-color: transparent;
+    padding: 5px;
+}
+.main-page-img{
+    width: 70%;
+}
+#scroll-top {
+    width: 45px;
+    padding: 5px;
+    background-color: #333;
+    color: #FF9F1C;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+    position: fixed;
+    right:15px;
+    bottom: 10px;
+    z-index: 9999;
+    display: none;
+}
+#scroll-top:hover{
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -o-transform: scale(1.15) ;
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    background-color: #FF9F1C;
+    color:#333;
+}
+/*
+=================================
+Navigation bar
+=================================
+*/
+
+.navbar .navbar-brand img{
+    width: 70px;
+
+}
+.navbar .navbar-brand:hover{
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    -moz-transform: scale(1.15) ;
+    -webkit-transform: scale(1.15) ;
+    -o-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15); 
+}
+.navbar-nav .nav-link{
+    color: #000;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin: 2px;
+}
+.navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link{
+    color: #FF9F1C;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    border-bottom: 1px solid #555;
+    
+}
+/* 
+/*
+=================================
+        Slider
+=================================
+*/ 
+.slider{
+    margin-bottom: 50px;
+}
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: content-box;
+    max-height: 600px;
+}
+
+.carousel-inner .carousel-caption{
+    float: left;
+    left: 0;
+    top: 22%;
+    text-align: left;
+    font-size: 1.7em;
+    width: 400px;
+    box-sizing: content-box;
+    bottom: 5%;
+}
+.carousel-caption h2{
+    color: #FF9F1C;
+    font-size: 1.7em;
+    
+}
+.content-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 1;
+}
+.carousel-item{
+    height: 100%;
+}
+@media (max-width: 950px){
+    .carousel-inner .carousel-caption{
+        top:20%;
+        font-size: 1.2em;
+    }
+    .carousel-inner .carousel-caption h2{
+        font-size: 1.15em;
+    }
+}
+.slider .carousel-item{
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -moz-background-size:cover;
+}
+
+/* 
+======================================
+Banner 
+' No banner here, only HULK :"D '
+======================================
+*/
+.banner img{
+    width: 80%;
+}
+
+.plans-section{
+    background-image: url("../../images/blog/slider-2.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+    min-height: 400px;
+    color: white;
+}
+.covering{
+    width: 100%;
+    background-color:rgba(15, 15, 15, .6);
+    min-height: 400px;
+}
+.plans-section .covering h2{
+    padding-top: 50px;
+}
+/* 
+===============================
+Hosting Cities 
+===============================
+*/
+.card{
+    margin-top: 10px;
+}
+.hosting-cities .card:hover{
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    -moz-transform: scale(1.1) ;
+    -webkit-transform: scale(1.1) ;
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+.hosting-cities .card-img-top{
+    max-height:170px;
+    width: 100%;
+}
+.hosting-cities .card-body{
+    line-height:1.5em;
+    box-sizing: content-box;
+}
+.hosting-cities .card-body .row img{
+    width:90%;
+}
+
+/************************/
+/*
+==================================
+Schedule Page
+==================================
+*/
+.team-flag{
+    width: 40px;
+    height: 30px;
+}

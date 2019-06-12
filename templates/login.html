@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>E-Touring</title>
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="../static/css/all.css" rel="stylesheet">
+    <link href="../static/css/style.css" rel="stylesheet">
+    <link rel="icon" href="../static/images/logo.png" type="image/x-icon"/>
+
+</head>
+<body>
+<!--  
+  =======================================================================
+                    Section 1 Nav
+  =======================================================================
+-->
+{% include "__navBar.html"%}
+<!--
+  =======================================================================
+                    Section 1 Nav End 
+  =======================================================================
+-->
+<!--  
+  =======================================================================
+                    Section Login Form
+  =======================================================================
+-->
+            <div class="login-form">
+                <div class="container text-center">
+                    <h2 class="h2">Login</h2>
+                    <img class="form-img img-fluid" src="../static/images/user.svg">
+                    <form method="POST" action="{{url_for('login')}}">
+                        <input class="login-field form-control" name="name" placeholder="Name" >
+                        <input class="login-field form-control" name="password" placeholder="Password" type="password">
+                        <button class="login-btn btn-outline" type="submit" >Login</button>
+                    </form>
+                    <ul>
+                        <li>
+                            <a href="#" alt="Facebook logo">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                           <a  href="#" >
+                                <i class="fab fa-google-plus-g "></i>
+                           </a> 
+                        </li>
+                  
+                        <li>
+                            <a  href="#" >
+                                <i class="fab fa-instagram "></i>
+                            </a>
+                        </li>
+                  
+                        <li>
+                            <a  href="#" >
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" alt="forgot password">
+                                Forgot password?
+                            </a>
+                        </li>
+                        <li>
+                          <a href="{{ url_for('signup') }}" alt="forgot password">
+                              Create Account
+                          </a>
+                      </li>
+                    </ul>
+                   
+                </div>
+                </div>
+            </div>
+
+
+    <!--  
+  =======================================================================
+                        SCRIPTS 
+  =======================================================================
+-->
+<script src="../static/js/jquery-3.3.1.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/main.js"></script>
+</body>
+
+</html>

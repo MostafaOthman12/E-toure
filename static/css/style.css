@@ -1,0 +1,738 @@
+/*
+Theme Main Colors :
+Banafsgy : 645e9d
+H2/H1 : ea638c
+eswed : 333
+some highlights: B33c86;
+
+"Gradianhts"
+background-color: #7f53ac;
+background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+*/
+
+/*
+=======================================================================
+Global Styling
+=======================================================================
+*/
+
+body {
+    overflow: hidden;
+}
+
+.gradiant-bg {
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+}
+
+.egypt-head {
+    color: #ea638c;
+}
+
+.sub-header {
+    font-size: 1.6em;
+    text-transform: capitalize;
+}
+
+.main-page-img {
+    width: 60%;
+}
+
+.highlighted-text {
+    color: #645e9d;
+    font-weight: 450;
+}
+
+.btn-outline, .my-btn:hover, .navbar .navbar-nav .active>.nav-link {
+    background-color: transparent;
+    border: 1px solid #ea638c;
+    border-radius: 6px;
+    color: #ea638c;
+    padding: 5px;
+    margin: 5px;
+}
+
+.my-btn, .btn-outline:hover, .navbar .navbar-nav .nav-link:hover {
+    background-color: #ea638c;
+    border-radius: 6px;
+    border: transparent;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ea638c;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+.form-img {
+    width: 150px;
+}
+
+.profile-pic-nav {
+    width: 20px;
+}
+
+/*
+=======================================================================
+Loading spinner
+=======================================================================
+*/
+
+.loading-overlay {
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.spinner {
+    margin: 300px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.spinner>div {
+    background-color: #ea638c;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+    background-color: #645e9d;
+}
+
+.spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+    background-color: #647dee;
+}
+
+.spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+    background-color: #ea638c;
+}
+
+.spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+    background-color: #7f53ac;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% {
+        -webkit-transform: scaleY(0.4)
+    }
+    20% {
+        -webkit-transform: scaleY(1.0)
+    }
+}
+
+@keyframes sk-stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+    20% {
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+    }
+}
+
+/*
+=======================================================================
+  Scroll top button
+=======================================================================
+*/
+
+#scroll-top {
+    width: 45px;
+    padding: 5px;
+    background-color: #ea638c;
+    color: white;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    display: none;
+}
+
+#scroll-top:hover {
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    background-color: white;
+    color: #ea638c;
+}
+
+/*
+=======================================================================
+Navigationn Bar Styling
+=======================================================================
+*/
+
+.navbar {
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 15 px;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ea638c;
+    padding: .7em;
+}
+
+#total-cup {
+    color: #ff9f1c;
+}
+
+#total-cup:hover {
+    background-color: black;
+    color: #ff9f1c;
+    border: 1px solid #eee;
+}
+
+.navbar-toggler-icon {
+    color: #645e9d
+}
+
+.dropdown-item {
+    padding: .7rem;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #ea638c;
+    color: white;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    padding-left: 1rem;
+}
+
+/*
+=======================================================================
+Main Wrapper Styling
+=======================================================================
+*/
+
+.main-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*
+=======================================================================
+Main Wrapper Styling End
+=======================================================================
+*/
+
+/*
+=======================================================================
+Pyramid Wrapper Styling
+=======================================================================
+*/
+
+.pyramid-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*
+=======================================================================
+Pyramids Wrapper Styling End
+=======================================================================
+*/
+
+/*
+=======================================================================
+Caf Cup Banner
+=======================================================================
+*/
+
+.caf-cup-banner img {
+    width: 80%;
+}
+
+.caf-cup-banner a {
+    text-decoration: none;
+    color: black
+}
+
+/*
+=======================================================================
+Caf Cup End
+=======================================================================
+*/
+
+/*
+=======================================================================
+Search Wrapper Styling 
+=======================================================================
+*/
+
+.search-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.search-section .search-btn {
+    margin-top: 1em;
+}
+
+.search-section .search-aria {
+    padding-top: 2em
+}
+
+.search-section h2 {
+    font-weight: lighter
+}
+
+/*
+=======================================================================
+Search Wrapper Styling End
+=======================================================================
+*/
+
+/* 
+=======================================================================
+Plans Section Styling
+=======================================================================
+*/
+
+.plans-section {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.plans-section .heading-section {
+    padding: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* 
+=======================================================================
+Plans Section Styling EndS
+=======================================================================
+*/
+
+/* 
+=======================================================================
+Subscribe Section Styling
+=======================================================================
+*/
+
+.subscribe {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.subscribe h2 {
+    font-weight: lighter;
+}
+
+/* 
+=======================================================================
+Subscribe Section Styling End
+=======================================================================
+*/
+
+/* 
+=======================================================================
+Why Egypt Section Styling 
+=======================================================================
+*/
+
+.why-egypt .row img {
+    max-height: 200px;
+}
+
+/* 
+=======================================================================
+Why Egypt Section Styling End
+=======================================================================
+*/
+
+/* 
+=======================================================================
+Testimonials section styling
+=======================================================================
+*/
+
+.testimonials {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px;
+    height: 400px;
+    color: white;
+}
+
+.carousel-inner {
+    margin-top: 3em;
+    padding: 20px;
+}
+
+.testimonials-img {
+    max-width: 100px;
+    border: 1px solid #ea638c;
+    padding: 1px;
+}
+
+.testimonials-img:hover {
+    -webkit-box-shadow: 0px 0px 30px -5px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 30px -5px rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 30px -5px rgba(255, 255, 255, 0.75);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    -moz-transform: rotate(360deg);
+    -moz-transform: scale(1.15) rotate(360deg);
+    -webkit-transform: scale(1.15) rotate(360deg);
+    -o-transform: scale(1.15) rotate(360deg);
+    -ms-transform: scale(1.15) rotate(360deg);
+    transform: scale(1.15) rotate(360deg);
+}
+
+.testimonials-caption {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/* 
+=======================================================================
+Testimonials section styling end
+=======================================================================
+*/
+
+.top-posts-img {
+    width: 100%;
+}
+
+.top-posts .row {
+    margin-top: 30px;
+}
+
+/* 
+=======================================================================
+Footer  styling 
+=======================================================================
+*/
+
+.footer {
+    margin-top: 50px;
+    padding: 30px;
+    color: white;
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+}
+
+.footer .social-media ul, .footer .my-menu ul {
+    list-style: none;
+}
+
+.footer .social-media ul li, .footer .my-menu ul li {
+    display: inline-block;
+    margin: 1px;
+    padding: 5px;
+}
+
+.footer .social-media ul li, .footer .my-menu ul li a {
+    color: white;
+}
+
+.footer .my-menu ul a {
+    text-decoration: none;
+}
+
+.footer .social-media ul li:hover, .footer .my-menu ul li a:hover {
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    color: white;
+}
+
+/* 
+=======================================================================
+Footer  styling End
+=======================================================================
+*/
+
+/* 
+=======================================================================
+Login  styling 
+=======================================================================
+*/
+
+.login-field {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 1.6em;
+}
+
+.login-btn, .login-btn:hover {
+    min-width: 150px;
+    padding: .5em;
+    margin-top: 20px;
+}
+
+.login-form ul {
+    list-style: none;
+}
+
+.login-form ul li {
+    display: inline-block;
+    padding: .6em;
+}
+
+.login-form ul li a {
+    color: #645e9d;
+}
+
+.login-form ul li a:hover {
+    color: #ea638c;
+    text-decoration: none;
+}
+
+/* 
+=======================================================================
+Login  styling End
+=======================================================================
+*/
+
+/* 
+=======================================================================
+Profile  styling End
+=======================================================================
+*/
+
+.left-side, .righ-side {
+    -webkit-box-shadow: 7px 7px 14px -17px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 7px 14px -17px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px 7px 14px -17px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
+
+/* left side styling */
+
+.profile-picture {
+    width: 100%;
+}
+
+.left-side, .about {
+    padding: 10px;
+}
+
+.about .bio {
+    color: white;
+    padding: 20px;
+}
+
+.about ul {
+    padding: 5px;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.about ul li {
+    color: #645e9d;
+    margin-top: 5px;
+    font-size: 17px;
+    border: 1px solid rgba(234, 99, 140, .5);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* right side styling */
+
+.righ-side {
+    padding: 35px;
+}
+
+.post-body {
+    padding: 15px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 0px 3px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 3px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 3px -2px rgba(0, 0, 0, 0.75);
+}
+
+/* 
+=======================================================================
+Edit profile  styling 
+=======================================================================
+*/
+
+.user-basic-info {
+    text-align: center;
+}
+
+.profile-picture {
+    width: 200px;
+}
+
+.main-info, .contact-info {
+    margin: 20px;
+    padding: 2em;
+    -webkit-box-shadow: 0px 0px 3px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 3px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 3px -2px rgba(0, 0, 0, 0.75);
+}
+
+.edit-profile-fields, select {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: .5em;
+    color: #ea638c;
+    font-size: 1.3em;
+}
+
+.edit-profile-fields::placeholder {
+    color: #ea638c
+}
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* 
+=======================================================================
+Blog 
+=======================================================================
+*/
+
+/* General Class */
+
+.blog-post:hover {
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    -moz-transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, .25);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, .25);
+}
+
+/* end of general */
+
+.carousel-inner {
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-inner img {
+    max-height: 700px;
+}
+
+.carousel-caption {
+    max-width: 70%;
+    ;
+    max-height: 89%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 3px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 3px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 3px -2px rgba(0, 0, 0, 0.75);
+}
+
+.slider p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.slider h2 {
+    font-family: 'Merienda', cursive;
+}
+
+/* about egypt */
+
+.map-image {
+    max-width: 500px;
+    margin: 40px 0 40px 0;
+}
+
+.heading-wrapper {
+    background-color: rgba(234, 99, 140, .1);
+    padding: 1rem;
+}
+
+.main-wrapper-for-cities .cities-nav .list-item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-wrapper-for-cities .cities-nav .list-item .list-link {
+    background: transparent;
+    border: 1px solid #ea638c;
+    padding: 15px;
+    text-decoration: none;
+    color: #ea638c;
+}
+
+.main-wrapper-for-cities .cities-nav .list-item .list-link:hover {
+    color: white;
+}
+
+.governorate blockquote {
+    font-style: italic;
+}
+
+.governorate h4 {
+    margin-top: 30px;
+}
+
+.governorate .governorate-image {}
