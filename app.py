@@ -38,11 +38,28 @@ def map():
     return render_template('Maps.html')
 
 
-@app.route("/edit_profile")
+@app.route("/edit_profile", methods=['GET', 'POST'])
 def edit_profile():
-    name = current_user.user_name
-    return render_template("edit-profile.html")
+    if request.method == "POST":
+        name = request.form['name']
+        password = request.form["password"]
+        phone = request.form['phone']
+        address = request.form['address']
+        email = request.form['email']
+        job = request.form['job']
+        bio = request.form['bio']
+        age = int(request.form['age'])
+        editUser = user(user_name=name, password=password, age=age, address=address,
+                       email=email, phoneNumber=phone, Bio=bio, Job=job, role_fk=0)
+        session.add(editUser)
+        session.commit()
+        return redirect(url_for('profile', roletype = current_user.role.role_type))
+    name = current_user
+    return render_template("edit-profile.html", name=name)
 
+@app.route('/maps')
+def maps():
+    return render_template('maps.html')
 
 @login_required
 @app.route("/addArticle", methods=["POST"])
@@ -90,9 +107,7 @@ def deleteArticle():
     return redirect(url_for("profile", roletype=roletype))
 
 
-@app.route('/maps')
-def maps():
-    return render_template('maps.html')
+
 
 
 @app.route('/signup', methods=['GET', 'POST'])
