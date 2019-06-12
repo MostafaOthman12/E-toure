@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBarToggle" aria-controls="myNavBarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon">
+                    <i class="fas fa-ellipsis-v"></i>
+                  </span>
+                </button>
+                <a class="navbar-brand" href="{{ url_for('cupIndex') }}">
+                    <img src="../../static/cup/images/egypt-2019-logo.png" alt="Logo">
+                </a>
+
+                <div class="collapse navbar-collapse" id="myNavBarToggle">
+                  <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="{{ url_for('cupIndex') }}">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{{ url_for('beforeVisite') }}">Before Your Visit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('matches') }}">Match Schedule</a>
+                      </li>
+                  </ul>
+                </div>
+                </div>
+              </nav>

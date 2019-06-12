@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6519e4c1-183d-4393-8cf3-6f7528cd1572" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/before-visit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/alex-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/alex.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/caf-2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cairo-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cairo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/camer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cup-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cup-pic-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cup-pic-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cup-pic-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cup-pic-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cup-pic-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cup-pic-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cup-pic-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cup-pic-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cup-pic-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cup-pic-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cup-pic-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/cup-pic-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/egypt-2019-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/egypt.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/ismailia-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/ismailia.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/suez.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/suezn-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/algeria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/angola.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/benin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/borondi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/cameron.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/cote.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/egypt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/ghana.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/ghenia-beso.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/ghenia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/kenya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/madghashkar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/mali.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/moroco.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/muritania.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/namibia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/nigeria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/rd-congo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/s-africa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/senegal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/tanzania.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/tunisia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/ughanda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/images/teams/zimpapwi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/js/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/matches.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/schedule.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cup (1)/webfonts/fa-solid-900.woff2" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/cup /__navBar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/cup /index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/cup /before-visit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/cup /matches.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/templates/cup /before-visit.html" />
+        <option value="$PROJECT_DIR$/templates/cup /matches.html" />
+        <option value="$PROJECT_DIR$/templates/cup /index.html" />
+        <option value="$PROJECT_DIR$/templates/cup /__navBar.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/E-Tourise.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="y" value="27" />
+    <option name="width" value="960" />
+    <option name="height" value="1005" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="E-Tourise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Tourise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Tourise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Tourise" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Tourise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Tourise" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="cup " type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="E-Tourise" type="Python.FlaskServer">
+      <module name="E-Tourise" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6519e4c1-183d-4393-8cf3-6f7528cd1572" name="Default Changelist" comment="" />
+      <created>1560345699313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560345699313</updated>
+      <workItem from="1560345704390" duration="2202000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2202000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="960" height="1005" extended-state="4" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/__navBar.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cup /before-visit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cup /matches.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cup /index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cup /__navBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

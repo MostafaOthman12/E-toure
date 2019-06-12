@@ -38,6 +38,7 @@ def map():
     return render_template('Maps.html')
 
 
+@login_required
 @app.route("/edit_profile", methods=['GET', 'POST'])
 def edit_profile():
     if request.method == "POST":
@@ -50,16 +51,33 @@ def edit_profile():
         bio = request.form['bio']
         age = int(request.form['age'])
         editUser = user(user_name=name, password=password, age=age, address=address,
-                       email=email, phoneNumber=phone, Bio=bio, Job=job, role_fk=0)
+                        email=email, phoneNumber=phone, Bio=bio, Job=job, role_fk=0)
         session.add(editUser)
         session.commit()
-        return redirect(url_for('profile', roletype = current_user.role.role_type))
+        return redirect(url_for('profile', roletype=current_user.role.role_type))
     name = current_user
     return render_template("edit-profile.html", name=name)
+
 
 @app.route('/maps')
 def maps():
     return render_template('maps.html')
+
+
+@app.route("/cupIndex")
+def cupIndex():
+    return render_template("cup /index.html")
+
+@app.route("/before_visite")
+def beforeVisite():
+    return render_template("cup /before-visit.html")
+
+@app.route("/Matches")
+def matches():
+    return render_template("cup /matches.html")
+
+
+
 
 @login_required
 @app.route("/addArticle", methods=["POST"])
@@ -105,9 +123,6 @@ def deleteArticle():
     session.commit()
     roletype = roleType.role_type
     return redirect(url_for("profile", roletype=roletype))
-
-
-
 
 
 @app.route('/signup', methods=['GET', 'POST'])

@@ -4,41 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>E-Touring</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
-    <link href="css/all.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="icon" href="images/egypt-2019-logo.png" type="image/x-icon"/>
+    <link href="../../static/cup/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../static/cup/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="../../static/cup/css/all.css" rel="stylesheet">
+    <link href="../../static/cup/css/style.css" rel="stylesheet">
+    <link rel="icon" href="../../static/cup/images/egypt-2019-logo.png" type="image/x-icon"/>
 
 </head>
 <body>
     <!-- Navigation Bar Section-->
-    <nav class="navbar navbar-expand-lg navbar">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBarToggle" aria-controls="myNavBarToggle" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon">
-                    <i class="fas fa-ellipsis-v"></i>
-                  </span>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <img src="images/egypt-2019-logo.png" alt="Logo">
-                </a>
-              
-                <div class="collapse navbar-collapse" id="myNavBarToggle">
-                  <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item ">
-                      <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link " href="before-visit.html">Before Your Visit</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="matches.html">Match Schedule</a>
-                      </li>
-                  </ul>
-                </div>
-            </div>
-    </nav>
+    {% include "cup /__navBar.html" %}
+
     <div class="before-visiting-egypt">
         <div class="container">
             <h2 class="text-center">Things you should know before visiting egypt</h2>
@@ -136,7 +112,7 @@
                         SCRIPTS 
     =======================================================================
 -->
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../../static/cup/js/jquery-3.3.1.js"></script>
+    <script src="../../static/cup/js/bootstrap.min.js"></script>
+    <script src="../../static/cup/js/main.js"></script>
 </body>
